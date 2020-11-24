@@ -9,7 +9,6 @@ const session = require('express-session');
 const passport = require('passport')
 const passportLocalMongoose = require('passport-local-mongoose');
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
-const FacebookStrategy = require('passport-facebook').Strategy;
 
 const PORT = process.env.PORT || 3000;
 const app = express();
